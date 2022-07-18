@@ -38,7 +38,7 @@ pageTheme: green
 對於 Documentation：  
 
 2. 在說明文件內，頁面是用 Markdown 格式書寫的，全都位於 /dev/ 資料夾內，後再用 [Vuepress](https://vuepress.vuejs.org) 將網頁生成。要編輯內容，你只需編輯相應的 .md 文件。你亦可 [使用 Vuepress 預覽頁面](https://vuepress.vuejs.org/guide/getting-started.html)。Fork [外用／開發用 GitHub 專案](https://github.com/lksco/dev)，再修改 /dev/ 內的文件  
-3. 在 LKSCO ScoreList GitHub 專案開 Pull Request，以便更新文件（[更多資訊](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)）  
+3. 在 [外用／開發用 GitHub 專案](https://github.com/lksco/dev) 開 Pull Request，以便更新文件（[更多資訊](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)）  
 
 ## 使用守則
 LKSCO ScoreList 使用 [GNU General Public License v3.0 or later](https://www.gnu.org/licenses/gpl-3.0.en.html) 許可條款。  

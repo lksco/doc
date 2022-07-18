@@ -38,7 +38,7 @@ For ScoreList:
 For Documentation:  
 
 2. The pages are written in Markdown format, stored in /dev/ folder, and generated using [Vuepress](https://vuepress.vuejs.org). To edit the content, you only have to edit the corresponding .md files. You can also [use Vuepress to preview the website](https://vuepress.vuejs.org/guide/getting-started.html). Fork [the GitHub Repository for External/Development Use](https://github.com/lksco/dev) and make changes to the /dev/ folder  
-3. Open a Pull Request in the LKSCO ScoreList GitHub repository updating the documents ([More Instructions](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork))  
+3. Open a Pull Request in [the GitHub Repository for External/Development Use](https://github.com/lksco/dev) updating the documents ([More Instructions](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork))  
 
 ## Terms of Use
 LKSCO ScoreList is [GNU General Public License v3.0 or later](https://www.gnu.org/licenses/gpl-3.0.en.html) licensed.  
