@@ -1,0 +1,276 @@
+.custom-block.tip
+  border-color: #4e76f0
+
+.theme-default-content:not(.custom) > h1, .theme-default-content:not(.custom) > h2, .theme-default-content:not(.custom) > h3, .theme-default-content:not(.custom) > h4, .theme-default-content:not(.custom) > h5, .theme-default-content:not(.custom) > h6
+  margin-top: 0rem
+  padding-top: 1rem
+  transition: background-color .1s 0s linear
+  &:target
+    background-color: rgba(255, 219, 44, 0.1)
+
+.theme-default-content:not(.custom) > h1:first-child, .theme-default-content:not(.custom) > h2:first-child, .theme-default-content:not(.custom) > h3:first-child, .theme-default-content:not(.custom) > h4:first-child, .theme-default-content:not(.custom) > h5:first-child, .theme-default-content:not(.custom) > h6:first-child
+  margin-top: 4rem
+
+a.prev:hover
+  cursor: pointer
+
+// NAVBAR
+
+body .navbar .site-name, h1, h2
+  color: $titleColor
+
+// SEARCH BOX
+
+.navbar
+  box-shadow: 0 3px 8px 0 rgba(116, 129, 141, 0.1)
+  .links
+    flex-direction: row-reverse
+
+    .search-box
+      font-size: 1rem
+      border-radius: 3px
+      margin-right: 1rem
+
+      input
+        font: inherit
+        font-size: 0.9rem
+        border: none
+        margin: 0
+        text-align: left
+        border-radius: 3px
+        padding-left: 2rem
+
+      .suggestions
+        border-radius: 0
+        border-color: $lightDelimiterColor
+        top: 2.25rem
+
+      @media (min-width: $MQNarrow)
+        &:before
+          top: 50%
+          left: 0
+          height: $navbarHeight
+          content: ""
+          position: absolute
+          transform: translateY(-50%)
+          border-left: 1px solid $lightDelimiterColor
+
+        input
+          height: 100%
+          background-size: 0.9rem
+          background-position-y: 50%
+
+    #search-form
+      line-height: inherit
+
+// SIDEBAR
+
+.sidebar
+  background-color: $sidebarBgColor
+  padding-left: 1.5rem
+
+.sidebar-group
+  color: $sidebarHeaderColor
+  margin-bottom: 1.5rem
+
+  .sidebar-heading, .sidebar-heading
+    font-size: 0.85rem !important
+    text-transform: uppercase
+    color: $sidebarHeaderColor
+    letter-spacing: 2px
+    padding: 0.5rem 1.5rem 0.5rem 1rem
+
+  li a.sidebar-link
+    padding-left: 1.2rem
+
+.sidebar-links
+  a.sidebar-link
+    font-size: 0.9rem
+    font-weight: 500
+    line-height: 1.5
+    padding: 0.5rem 1.5rem 0.5rem 1rem
+    border: 1px solid transparent
+    color: $textColor
+
+    &:hover
+      color: $textColor
+      background-color: $lightDelimiterColor !important
+
+    &.active
+      border-color: $lightDelimiterColor
+      border-right: none
+
+  .sidebar-links .sidebar-sub-headers a
+    background-color: inherit
+    border-color: transparent
+
+.color-theme-options
+  display: none !important
+
+.user-settings
+  .user-settings-menu
+    left: calc(50% - 35px)
+
+    &::before
+      left: calc(50% + 35px)
+
+.first-btn
+  background-color: $blueAccentColor !important
+  border-bottom-color: darken($blueAccentColor, 10%) !important
+  &:hover
+    background-color: lighten($blueAccentColor, 10%) !important
+
+.second-btn
+  background-color: $redAccentColor !important
+  border-bottom-color: darken($redAccentColor, 10%) !important
+  &:hover
+    background-color: lighten($redAccentColor, 10%) !important
+
+.actions
+  display: flex !important
+  justify-content: center !important
+  flex-direction: row
+  align-items: center
+  .action
+    max-width: 90% !important
+    margin: 0.3rem 0.3rem !important
+
+@media (max-width: $MQMobile)
+  .actions
+    flex-direction: column
+    .action
+      flex-grow: 1
+      flex-basis: 0
+      display: grid
+      width: 100%
+
+.navbar, .sidebar
+  -moz-user-select: -moz-none
+  -khtml-user-select: none
+  -webkit-user-select: none
+  -ms-user-select: none
+  user-select: none
+
+/* Title styling */
+.theme-default-content:not(.custom) > h1:first-child::after
+  content: " "
+  background-color: rgba(0, 162, 162, 0.5)
+  display: block
+  position: relative
+  bottom: -10px
+  margin-left: 12px
+  width: 40px
+  height: 5px
+
+/* Text styling */
+.score-list
+  font: small-caps bold 100% arial
+
+.score-input-sheet
+  color: #a75ce0
+
+.hidden-layer-one
+  color: #ff992b
+
+.hidden-layer-two
+  color: #fc702a
+
+.regular-score-list
+  color: #878787
+
+.special-score-list
+  color: #59a112
+
+.score-type
+  font-variant: small-caps
+  font-weight: bold
+
+.regular-scores
+  color: #c548c9
+
+.oversized-scores
+  color: #14a4dc
+
+.technical-papers
+  color: #5874f3
+
+/* Color Fixes*/
+.yuu-theme-blue .go-to-top
+  color: #2196f3 !important
+
+.yuu-theme-dark .theme-default-content .details code,
+.yuu-theme-dark .theme-default-content tr:nth-child(2n) code
+  background-color: #1f1f1f !important
+
+/* Smooth Scrolling */
+html
+  scroll-behavior: smooth
+
+/* Make page anchors appear below the navbar */
+h1:not(:first-of-type), h2, h3, h4, h5, h6
+  border-top: 60px solid transparent !important
+  margin-top: -60px !important
+  -webkit-background-clip: padding-box
+  -moz-background-clip: padding
+  background-clip: padding-box
+
+/* Better Scrollbar */
+body
+  --scroll-border: #eaecef
+  --scroll-col: #3eaf7c
+  --scroll-col-rgb: 62, 175, 124
+
+body.yuu-theme-dark
+  --scroll-border: #3e4c5a
+
+body.yuu-theme-blue
+  --scroll-col: #2196f3
+  --scroll-col-rgb: 33, 150, 243
+
+.sidebar
+  scrollbar-width: thin
+  scrollbar-color: var(--scroll-col) var(--scroll-border)
+
+/* Transition Effects */
+a.header-anchor
+  transition: opacity 0.1s 0s linear
+
+/* Toc */
+.table-of-contents
+  width: fit-content
+  padding: .5em 1em
+  border-radius: 8px
+  background-color: #f2f2f2
+  ul
+    list-style-type: none
+    padding-left: 0
+    ul
+      margin: 0 0 0 2em
+      padding-left: 0.5em
+      border-left: 1px dotted #444
+  &::before
+    content: "Contents \A (Double Click to Jump)"
+    display: block
+    white-space: pre-wrap
+    margin-top: 1em
+.yuu-theme-dark
+  .table-of-contents
+    background-color: #222
+    ul ul
+      border-left: 1px dotted #ccc
+html[lang=zh-hk] .table-of-contents::before
+  content: "目錄（雙擊傳送）"
+
+/* Images */
+.theme-default-content:not(.custom) img[src*=assets]
+  max-height: 90vh
+  &:not(.custom-block img)
+    background-color: #ccc
+    border: .3em solid #ccc
+.yuu-theme-dark .theme-default-content:not(.custom) img[src*=assets]&:not(.custom-block img)
+  background-color: #444
+  border: .3em solid var(--scroll-col)
+.medium-zoom-overlay
+  background-color: rgba(25, 18, 25, 0.9) !important
+  ~ img
+    height: auto !important

@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.0",
+    "@vuepress/plugin-medium-zoom": "^1.9.7",
+    "vuepress": "^1.8.0",
+    "vuepress-theme-book": "0.0.5"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "description": "The Score Registration and Storage Solution (Documentation) for the Chinese Orchestra of TWGHs Li Ka Shing College",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lksco/doc.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@growthbunker/vuedarkmode": "^0.5.56",
+    "markdown-it": "^12.0.4",
+    "markdown-it-imsize": "^2.0.1",
+    "vuepress-theme-yuu": "^3.0.1"
+  }
+}

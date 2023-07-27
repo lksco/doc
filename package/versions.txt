@@ -1,0 +1,17 @@
+Google Sheets Pull Requests
+
+To add a pull request of an upgraded ScoreList, please enter in this format:
+<Date>
+Link: <...>
+Author: <...>
+Note: <...>
+
+Current Version: 2021v1
+---
+29/6/2021
+Link (Dev): https://docs.google.com/spreadsheets/d/1012czxS-YRycBWYltrY3NYHiijFF5fpA3RLpA5tMJPU/edit?usp=sharing
+Author: admin
+Note: initial commit
+
+New Pull Requests
+---

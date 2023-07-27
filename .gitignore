@@ -1,0 +1,6 @@
+node_modules
+.vscode
+cookie
+geckodriver.log
+ghostdriver.log
+dev/docs/.vuepress/dist/
