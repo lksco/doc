@@ -12,7 +12,7 @@ pageTheme: green
 ## 支援
 #### System Manager  
 請使用以下電郵地址聯絡本系統的開發人員及系統管理員 Oscar。對於系統或說明文件有任何疑問，可隨時聯絡。請預留一星期等候回覆。  
-**電郵：**[lksco@protonmail.com](mailto://lksco@protonmail.com)  
+**電郵：**[neospaces@proton.me](mailto://neospaces@proton.me)  
 
 ## 持續發展
 這個 ScoreList 系統將會維持於現有版本，除非使用者要求修復或改善。雖機會不大，未來此系統有可能會使用 Google API 簡化程序，令操作員不再需要學習 Google Sheets 的輸入模式。  

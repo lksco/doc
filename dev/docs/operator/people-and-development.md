@@ -12,7 +12,7 @@ Thanks to our music teacher and orchestra supervisor Miss KM Wong for the suppor
 ## Support
 #### System Manager  
 Please use the email provided to contact Oscar, the developer/system manager of LKSCO Scorelist. Questions and issues regarding the system or documentation is welcomed. Response time should be within one week.  
-**Email:** [lksco@protonmail.com](mailto://lksco@protonmail.com)  
+**Email:** [neospaces@proton.me](mailto://neospaces@proton.me)  
 
 ## Continuous Development
 The ScoreList is expected to remain as-is unless users prompt fixes or upgrade. Further development with Google API may be considered, although unlikely to happen. Such system would allow Operators to modify data without learning Google Sheets.  
